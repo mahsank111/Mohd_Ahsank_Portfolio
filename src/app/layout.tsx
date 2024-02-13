@@ -8,7 +8,7 @@ import { createClient, repositoryName } from "@/prismicio";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 
-const urbanist = Urbanist({ subsets: ["latin"], weight: ["100", "200", "300" , "400" , "500", "600", "700", "800", "900"] });
+const urbanist = Urbanist({ subsets: ["latin"], weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"] });
 
 
 
@@ -32,6 +32,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="bg-slate-900">
+
       <body className={clsx(urbanist.className, "relative min-h-screen")}>
         <Header />
         {children}
