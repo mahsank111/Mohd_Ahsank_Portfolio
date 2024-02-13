@@ -1,0 +1,29 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"first_name": {
+				"__TYPE__": "FieldContent",
+				"value": "sale",
+				"type": "Text"
+			},
+			"last_name": {
+				"__TYPE__": "FieldContent",
+				"value": "fun",
+				"type": "Text"
+			},
+			"tag_line": {
+				"__TYPE__": "FieldContent",
+				"value": "possible",
+				"type": "Text"
+			},
+			"middle_name": {
+				"__TYPE__": "FieldContent",
+				"value": "egg",
+				"type": "Text"
+			}
+		},
+		"items": []
+	}
+]
